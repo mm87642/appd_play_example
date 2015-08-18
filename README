@@ -1,7 +1,9 @@
 Steps to Run this project
-1. specify account-access-key & account-name in ./AppDymanics/conf/controller-info.xml
-2. create /vol dir and give write permission
-3. sh start.sh
+1. create /vol dir and give write permission
+2. clone appd_play_example to /vol
+3. cd /vol/appd_play_example
+4. specify account-access-key & account-name in ./AppDymanics/conf/controller-info.xml
+5. sh run.sh
 
 Application will be started on 9000 port
 App Root Folder : /vol/appd_play_example
