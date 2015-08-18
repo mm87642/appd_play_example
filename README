@@ -1,0 +1,13 @@
+Steps to Run this project
+1. specify account-access-key & account-name in ./AppDymanics/conf/controller-info.xml
+2. create /vol dir and give write permission
+3. sh start.sh
+
+Application will be started on 9000 port
+App Root Folder : /vol/appd_play_example
+App logs : /vol/logs/appd_play_example
+AppDynamics Root Folder: /vol/AppDynamics
+
+Status check : curl -XGET 'localhost:9000/status'
+Response Code check : Status check : curl -XGET 'localhost:9000/test/<response_code>'
+Ex: curl -XGET 'localhost:9000/test/200' 
