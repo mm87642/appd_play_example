@@ -3,7 +3,8 @@ Steps to Run this project
 2. clone appd_play_example to /vol
 3. cd /vol/appd_play_example
 4. specify account-access-key & account-name in ./AppDymanics/conf/controller-info.xml
-5. sh run.sh
+5. cp -r AppDynamics ../
+6. sh run.sh
 
 Application will be started on 9000 port
 App Root Folder : /vol/appd_play_example
